@@ -16,10 +16,9 @@ export function About() {
       <S.Content>
         <span>
           Eu sou a Jadna Silva, moro em São Paulo capital.Trabalho com desenvolvimento front end há pouco mais de 3 anos.
-          Sou apaixonada por tecnologia inovação e código, sou uma pessoa que persegue seus sonhos,que trabalha dure e
-          que é orientada para resultados.
-          Na verdade, trabalho constantemente para me aprimorar buscando alcaçar a melhor versão de mim mesmo
-          Estou sempre aprendendo mais sobre JavaScript, ReactJs, React Native e NodeJs.
+          Sou apaixonada por tecnologia inovação e código.
+          Estou trabalhando constantemente para me aprimorar buscando alcançar a melhor versão de mim mesmo
+          Estou sempre aprendendo mais sobre JavaScript, ReactJs, React Native e NodeJs 🚀.
         </span>
       </S.Content>
 
