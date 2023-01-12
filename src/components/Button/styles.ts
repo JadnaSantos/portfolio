@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { shade } from 'polished';
 
 export const Container = styled.button`
 
@@ -16,25 +15,9 @@ export const Container = styled.button`
   margin-top: 16px;
   transition: background-color 0.2s;
 
-  &:hover{
-    background: ${shade(0.2, '#8284FA')};
-  }
-
   a {
     color: ${({ theme }) => theme.colors?.white};
 
   }
-
-  @keyframes animate {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
 `;
 
