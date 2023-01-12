@@ -14,6 +14,7 @@ import { Input } from '../../components/Input';
 import { useRef } from 'react';
 import { Button } from '../../components/Button';
 import axios from 'axios';
+import * as Styles from '../../../src/styles/styles';
 
 
 const FormContantValidationSchema = zod.object({
@@ -55,10 +56,10 @@ export function Contact() {
 
   return (
     <S.Container>
-      <S.Title>
+      <Styles.Title>
         Contato
         <span><Envelope /> Contact</span>
-      </S.Title>
+      </Styles.Title>
       <S.Content>
         <div className='contact-content'>
           <h4><LinkedinLogo size={22} color="#00fffb" /> WhatsApp </h4>

@@ -1,17 +1,17 @@
-import * as S from './styled';
 import { DownloadSimple, User } from 'phosphor-react';
 import { Button } from '../../components/Button';
-
+import * as Style from '../../../src/styles/styles';
+import * as S from './styled';
 
 export function About() {
   return (
-    <S.Container>
-      <S.Title>
+    <Style.Container>
+      <Style.Title>
         Sobre
         <span>
           <User /> About
         </span>
-      </S.Title>
+      </Style.Title>
 
       <S.Content>
         <div className="aboutDescription">
@@ -28,6 +28,6 @@ export function About() {
           <b>Download CV</b> <DownloadSimple weight="bold" />
         </Button>
       </a>
-    </S.Container >
+    </Style.Container >
   );
 }

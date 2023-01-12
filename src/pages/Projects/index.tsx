@@ -1,6 +1,6 @@
 import * as S from './styles';
+import * as Styles from '../../../src/styles/styles';
 import { Briefcase } from 'phosphor-react';
-import { Link } from 'react-router-dom';
 import { projects } from './projects';
 
 
@@ -18,10 +18,10 @@ interface Projects {
 export function Projects() {
   return (
     <S.Container>
-      <S.Title>
+      <Styles.Title>
         Projetos
         <span><Briefcase /> Projects</span>
-      </S.Title>
+      </Styles.Title>
       <S.ProjectsContainer>
         {projects.map(project => {
           return (

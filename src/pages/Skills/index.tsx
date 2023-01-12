@@ -1,4 +1,6 @@
 import * as S from './styles';
+import * as Styles from '../../../src/styles/styles';
+
 import { FileCode } from 'phosphor-react';
 import { cardSkills } from './skills';
 
@@ -12,10 +14,10 @@ interface Skills {
 export function Skills() {
   return (
     <S.Container>
-      <S.Title>
+      <Styles.Title>
         Habilidades
         <span><FileCode /> Skills</span>
-      </S.Title>
+      </Styles.Title>
       <S.Content>
         {cardSkills.map(skill => {
           return (
