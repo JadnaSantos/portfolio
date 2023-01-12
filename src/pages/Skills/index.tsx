@@ -6,8 +6,8 @@ import { cardSkills } from './skills';
 
 interface Skills {
   title: string,
-  color?: string,
-  img?: string,
+  color: string,
+  img: string,
   id: number,
 }
 
