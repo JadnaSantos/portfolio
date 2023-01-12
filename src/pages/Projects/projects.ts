@@ -1,0 +1,50 @@
+export const projects = [
+  {
+    id: 1,
+    url: 'App-Movie',
+    img: 'src/assets/projects/appMovies/movie.png',
+    title: 'App-Movie',
+    github: 'https://github.com/JadnaSantos/app-theMovie',
+    description: ' Lista os Filmes mais populares do momento, para isto todos os dados dos catálogos como título, descrição, capa, foto de background e avaliação foram extraídos ao usar a API TMDb.',
+  },
+  {
+    id: 2,
+    url: 'Local Maps',
+    img: 'src/assets/projects/localMaps/web-login.png',
+    title: 'Local Maps',
+    github: 'https://github.com/JadnaSantos/local-maps',
+    description: 'Local Maps é um app que ajuda as pessoas a conhecer melhor o comércio local, ou seja, o projeto é constituído por uma plataforma web que as pessoas possam cadastrar os estabelecimentos.',
+  },
+  {
+    id: 3,
+    url: 'Sistema de Pedidos',
+    img: 'src/assets/projects/orderSystem/add-product.png',
+    title: 'Sistema de Pedidos',
+    github: 'https://github.com/JadnaSantos/sistema-de-pedidos',
+    description: 'Local Maps é um app que ajuda as pessoas a conhecer melhor o comércio local, ou seja, o projeto é constituído por uma plataforma web que as pessoas possam cadastrar os estabelecimentos.',
+  },
+  {
+    id: 4,
+    url: 'Coffee Delivery',
+    img: 'src/assets/projects/coffeDelivery/coffee.png',
+    title: 'Coffee Delivery',
+    github: 'https://github.com/JadnaSantos/coffee-delivery',
+    description: 'Nesse desafio, foi proposto desenvolver uma aplicação para gerenciar um carrinho de compras de uma cafeteria fictícia',
+  },
+  {
+    id: 5,
+    url: 'Count Down Time',
+    img: 'src/assets/projects/countDownTime/time.png',
+    title: 'Count Down Time',
+    github: 'https://github.com/JadnaSantos/CountDownTime-',
+    description: 'Nesse desafio, foi proposto desenvolver uma aplicação para gerenciar um carrinho de compras de uma cafeteria fictícia',
+  },
+  {
+    id: 6,
+    url: 'Quiz',
+    img: 'src/assets/projects/quiz/quiz.png',
+    title: 'Quiz',
+    github: 'https://github.com/JadnaSantos/QuizApp',
+    description: 'Nesse desafio, foi proposto desenvolver uma aplicação para gerenciar um carrinho de compras de uma cafeteria fictícia',
+  }
+];
