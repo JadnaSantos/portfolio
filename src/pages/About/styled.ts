@@ -4,14 +4,12 @@ export const Content = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1rem 2rem;
 
-  .aboutDescription {
-    display: flex;
-    justify-content: center;
-    padding: 1rem 2rem;
 
-    span {
-      color: ${({ theme }) => theme.colors.black};
-    }
+  span {
+    text-align: justify;
+    font-size: 1.5rem;
+    color: ${({ theme }) => theme.colors.black};
   }
 `;
