@@ -3,15 +3,6 @@ import * as Styles from '../../../src/styles/styles';
 import { Briefcase } from 'phosphor-react';
 import { projects } from './projects';
 
-interface Projects {
-  id: string;
-  img: string;
-  url: string
-  title: string;
-  github: string;
-  description: string;
-}
-
 
 export function Projects() {
   return (
