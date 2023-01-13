@@ -2,7 +2,7 @@ import * as S from './styles';
 import {
   ChatText,
   Envelope,
-  LinkedinLogo,
+  WhatsappLogo,
   MapPin,
   TelegramLogo,
   User,
@@ -15,6 +15,7 @@ import { useRef } from 'react';
 import { Button } from '../../components/Button';
 import axios from 'axios';
 import * as Styles from '../../../src/styles/styles';
+import { toast } from 'react-toastify';
 
 
 const FormContantValidationSchema = zod.object({
@@ -42,16 +43,18 @@ export function Contact() {
     try {
       const { name, email, subject } = data;
 
-      const response = await axios.post('https://formsubmit.co/jadna.developer@gmail.com', {
+      await axios.post('https://formsubmit.co/jadna.developer@gmail.com', {
         name, email, subject
       });
+      reset();
 
-      console.log(response);
+      toast.success('Informações envidas com sucesso');
+
     } catch (err) {
-      console.log(err);
+      toast.error('Erro insperado, por favor, tente mais tarde');
     }
 
-    reset();
+
   };
 
   return (
@@ -62,15 +65,15 @@ export function Contact() {
       </Styles.Title>
       <S.Content>
         <div className='contact-content'>
-          <h4><LinkedinLogo size={22} color="#00fffb" /> WhatsApp </h4>
+          <h4><WhatsappLogo size={22} color="#616161" /> WhatsApp </h4>
           <span>+55 11 9942821740</span>
         </div>
         <div className='contact-content'>
-          <h4> <TelegramLogo size={22} color="#00fffb" /> Email </h4>
+          <h4> <TelegramLogo size={22} color="#616161" /> Email </h4>
           <span>jadna.developer@gmail.com</span>
         </div>
         <div className='contact-content'>
-          <h4><MapPin size={22} color="#00fffb" /> Localização</h4>
+          <h4><MapPin size={22} color="#616161" /> Localização</h4>
           <span>São Paulo - SP</span>
         </div>
       </S.Content>
