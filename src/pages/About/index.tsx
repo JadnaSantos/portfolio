@@ -18,7 +18,7 @@ export function About() {
           Eu sou a Jadna Silva, moro em São Paulo capital.Trabalho com desenvolvimento front end há pouco mais de 3 anos.
           Sou apaixonada por tecnologia inovação e código.
           Estou trabalhando constantemente para me aprimorar buscando alcançar a melhor versão de mim mesmo
-          Estou sempre aprendendo mais sobre JavaScript, ReactJs, React Native e NodeJs 🚀.
+          estou sempre aprendendo mais sobre JavaScript, ReactJs, React Native e NodeJs 🚀.
         </span>
       </S.Content>
 
