@@ -6,10 +6,15 @@ export const Content = styled.div`
   align-items: center;
   padding: 1rem 2rem;
 
-
   span {
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: ${({ theme }) => theme.colors.black};
+  }
+
+  @media (max-width: 425px) {
+    span{
+      text-align: center;
+    }
   }
 `;

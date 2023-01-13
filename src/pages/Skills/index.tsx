@@ -4,13 +4,6 @@ import * as Styles from '../../../src/styles/styles';
 import { FileCode } from 'phosphor-react';
 import { cardSkills } from './skills';
 
-interface Skills {
-  title: string,
-  color: string,
-  img: string,
-  id: number,
-}
-
 export function Skills() {
   return (
     <S.Container>
