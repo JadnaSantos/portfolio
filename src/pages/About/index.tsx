@@ -22,11 +22,15 @@ export function About() {
         </span>
       </S.Content>
 
+
       <a href="/pdf/Jadna-Silva.pdf" download>
         <Button>
           <b>Download CV</b> <DownloadSimple weight="bold" color='#ffff' />
         </Button>
       </a>
+
+
+
     </Style.Container >
   );
 }

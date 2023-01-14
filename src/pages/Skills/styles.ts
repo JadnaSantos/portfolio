@@ -51,7 +51,7 @@ export const SkillsContent = styled.div`
     width: 60px;
     height: 60px;
     z-index: 1;
-    color: ${({ theme }) => theme.colors.white};
+    color: ${({ theme }) => theme.colors.Swhite};
   }
 
   .border {
