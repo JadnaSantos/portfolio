@@ -3,6 +3,7 @@ import * as S from './styles';
 import photo from '../../assets/jadna.jpg';
 import { Links } from '../../components/Links';
 
+
 export function Home() {
   return (
     <>
@@ -27,8 +28,8 @@ export function Home() {
           <div>
             <S.Image src={photo} alt="Jadna Photo" width="455px" height="auto" />
           </div>
-        </S.Content>
 
+        </S.Content>
 
         <Links />
 

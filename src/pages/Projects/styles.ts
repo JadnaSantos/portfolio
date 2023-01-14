@@ -77,7 +77,7 @@ export const ProjectsContent = styled.div`
       font-weight: 900;
       font-size: 1.8rem;
       text-align: center;
-      color: ${({ theme }) => theme.colors.white}
+      color: ${({ theme }) => theme.colors.Swhite}
     }
   }
 
