@@ -1,8 +1,9 @@
+import React from 'react';
 import * as S from './styles';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { List, X } from 'phosphor-react';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.svg';
 
 export function Header() {
   const navigate = useNavigate();

@@ -73,7 +73,7 @@ export const HeaderItem = styled.div<Click>`
   @media (max-width: 994px) {
     height: 100vh;
     width: 83vw;
-    background: ${({ theme }) => theme.colors.background};
+    background: ${({ theme }) => theme.colors?.background};
     z-index: 999;
     display: ${({ click }) => (click ? 'block' : 'none')};
     opacity: 0.95;
