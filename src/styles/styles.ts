@@ -14,7 +14,7 @@ export const Title = styled.h2`
   font-weight: 800;
   margin: 2rem 0;
   padding-top: 2.1rem;
-  color: ${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors?.primary};
   z-index: 1;
   opacity: 1;
 
@@ -32,7 +32,6 @@ export const Title = styled.h2`
     top: 3px;
     left: 50%;
     right: 50%;
-    color: var(--second-color);
     opacity: 0.2;
     font-weight: 800;
     font-size: 2.6rem;

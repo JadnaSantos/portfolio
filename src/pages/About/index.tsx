@@ -1,3 +1,4 @@
+import React from 'react';
 import { DownloadSimple, User } from 'phosphor-react';
 import { Button } from '../../components/Button';
 import * as Style from '../../../src/styles/styles';

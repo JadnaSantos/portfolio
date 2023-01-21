@@ -9,7 +9,7 @@ export const Content = styled.div`
   span {
     text-align: justify;
     font-size: 1rem;
-    color: ${({ theme }) => theme.colors.black};
+    color: ${({ theme }) => theme.colors?.black};
   }
 
   @media (max-width: 425px) {
