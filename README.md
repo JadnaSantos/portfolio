@@ -12,7 +12,8 @@ Projeto pessoal para concentrar informações profissionais e de contato.
 - ReactJs;
 - Typescript;
 - Styled-Components;
-- React Hook Form.
+- React Hook Form;
+- Phosphor Icons
 
 
 ## 🚧 In progress 
