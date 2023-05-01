@@ -81,6 +81,7 @@ export function Contact() {
       <S.Form>
         <form
           onSubmit={handleSubmit(onSendEmail)}
+          method="POST"
         >
           <h4>Envie a sua mensagem</h4>
 

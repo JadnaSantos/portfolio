@@ -1,7 +1,7 @@
 import { DownloadSimple, User } from 'phosphor-react';
 import { Button } from '../../components/Button';
 import * as Style from '../../../src/styles/styles';
-import * as S from './styled';
+import * as S from './styles';
 
 export function About() {
   return (
