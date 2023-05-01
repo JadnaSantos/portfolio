@@ -4,8 +4,9 @@ export const defaultTheme = {
     primary: '#322153',
     secondary: '#6C63FF',
     black: '#000',
-    white: '#d6d6dc',
+    Swhite: '#d6d6dc',
     text: '#a9a9a9',
-    sColor: '#5252e0'
+    sColor: '#5252e0',
+    white: '#ffff'
   }
 };

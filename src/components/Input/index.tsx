@@ -1,4 +1,9 @@
-import React, { useState, useCallback, InputHTMLAttributes, useRef } from 'react';
+import React, {
+  useState,
+  useCallback,
+  InputHTMLAttributes,
+  useRef
+} from 'react';
 import { Container } from './styles';
 import { IconProps } from 'phosphor-react';
 

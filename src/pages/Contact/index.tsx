@@ -15,7 +15,6 @@ import { useRef } from 'react';
 import { Button } from '../../components/Button';
 import axios from 'axios';
 import * as Styles from '../../../src/styles/styles';
-import { toast } from 'react-toastify';
 
 
 const FormContantValidationSchema = zod.object({
@@ -46,12 +45,12 @@ export function Contact() {
       await axios.post('https://formsubmit.co/jadna.developer@gmail.com', {
         name, email, subject
       });
+
       reset();
 
-      toast.success('Informações envidas com sucesso');
 
     } catch (err) {
-      toast.error('Erro insperado, por favor, tente mais tarde');
+      console.log(err);
     }
 
 

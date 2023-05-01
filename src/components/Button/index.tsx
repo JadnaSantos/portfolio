@@ -1,25 +1,18 @@
 import React from 'react';
-import { Spinner } from 'phosphor-react';
 import { ButtonHTMLAttributes, ReactNode } from 'react';
 import { Container } from './styles';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  loading?: boolean;
   children: ReactNode
 }
 
-export const Button = ({ loading, children, ...rest }: ButtonProps) => {
+export const Button = ({ children, ...rest }: ButtonProps) => {
   return (
-    <Container type="button" {...rest}
+    <Container type="button" {...rest}>
+      <a>
+        {children}
 
-    >
-      {loading ? (
-        <Spinner color='#fffff' size={16} />
-      ) : (
-        <a>
-          {children}
-        </a>
-      )}
+      </a>
     </Container>
   );
 };

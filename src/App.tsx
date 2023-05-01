@@ -7,6 +7,7 @@ import { Router } from './routes';
 import 'react-toastify/dist/ReactToastify.min.css';
 
 
+
 function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
