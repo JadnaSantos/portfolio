@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^2.9.10",
+    "@types/jsdom": "^21.1.1",
     "axios": "^1.2.2",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
